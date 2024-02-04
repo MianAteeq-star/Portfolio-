@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Attique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<style>
+    div ul li {
+        color: white !important;
+        font-size: 15px !important;
+    }
+
+    .progress-bar {
+        background: #ffbd39;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-size: 12px;
+        line-height: 1.2;
+        color: #d42222;
+        font-weight: 600;
+        position: relative;
+        overflow: visible;
+    }
+
+    .skill-mf .progress {
+        /* background-color: #cde1f8; */
+        margin: .5rem 0 1.2rem 0;
+        border-radius: 0;
+        height: .7rem;
+    }
+
+    .skill-mf .progress .progress-bar {
+        height: .7rem;
+        background-color: #ffbd39;
+    }
+</style>
+
+<body class="bg-[#000021] text-white">
+    <header>
+        <nav class="flex flex-wrap  justify-evenly  items-center min-w-screen min-h-20 bg-[#023047] ">
+            <div>
+                <h1 class="text-2xl text-white ">Muhammad Attique Portfolio</h1>
+            </div>
+            <div>
+                <ul class="flex gap-6 t  flex-wrap">
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Home</li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">About</li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Services </li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Projects </li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container flex justify-around  flex-wrap mt-7 ">
+            <div class=" min-w-1/2 min-h-96 text-white text-5xl  flex justify-center flex-col">
+                Hi, My name is <br> <span class="text-[#023e8a]">Muhammad Attique <br></span> and I am a passionate
+                <span id="element" class="text-[#023e8a]"></span>
+            </div>
+            <div class=" min-h-52 w-96">
+                <img src="/assets/png.png" alt="">
+            </div>
+        </div>
+
+        <hr class="w-4/5 m-auto mt-24 h-1 border-0 bg-[#9c97f1]">
+        <!-- <section>
+            <div>
+                <span class="text-white">What i have done so far</span>
+                <h1 class="text-white">Past Experience</h1>
+
+            </div>
+            <div class="skill-mf">
+                <p class="title-s">Skills</p>
+                <span class="text-white">SQL</span> <span class="pull-right text-white">95%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+
+        </section> -->
+
+
+        <section class="flex flex-col " id="about-section">
+            <div class="flex justify-evenly">
+
+                <div class="about-img">
+                    <img src="./assets/boy 2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                </div>
+
+                <!-- Details next to profile image -->
+
+                <div class="about-info">
+                    <p><span class="title-s">Name: </span> <span>Rishabh Mishra</span></p>
+                    <p><span class="title-s">Job Role: </span> <span>Senior Data Analyst</span></p>
+                    <p><span class="title-s">Experience: </span> <span>5 Years 3 Months</span></p>
+                    <p><span class="title-s">Address: </span> <span>Bengaluru, India</span></p>
+                </div>
+            </div>
+
+
+<div class="flex justify-evenly">
+    
+    <div class="skill-mf w-1/2">
+                <p class="title-s">Skills</p>
+                <span>SQL</span> <span class="pull-right">95%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <span>PYTHON</span> <span class="pull-right">85%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <span>Data Visualization</span> <span class="pull-right">90%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <span>Statistical Analysis</span> <span class="pull-right">85%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <span>Machine Learning</span> <span class="pull-right">80%</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+            </div>
+
+
+            
+            
+            <div class="w-1/2" >
+                <h1 class="text-3xl">About</h1>
+                <h2 class="mb-4">About Me</h2>
+
+                <p class="text-white">With over 5 years of comprehensive experience in the field of data
+                    science & analytics,
+                    accompanied by a bachelor's degree in engineering.
+                    Proficient in data analysis, statistical analysis, hypothesis testing, customer
+                    behaviour
+                    analysis, &amp; machine learning.
+                    Demonstrated success in leading impactful projects and providing effective mentorship.
+                </p>
+                <ul class="about-info mt-4 px-md-0 px-2">
+                    <li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+                    <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital
+                            Marketing</span></li>
+                    <li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+                    <li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+                    <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp;
+                            Tableau</span></li>
+                    <li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA,
+                            Google
+                            Analytics &amp; SEO</span></li>
+                            <li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography,
+                                Teaching</span></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+            <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                <div class="text">
+                    <p class="mb-4">
+                        <span class="number" data-number="30">0</span> <span>+</span>
+                        <span>&nbsp; Projects completed</span>
+                    </p>
+                    <p><a href="https://www.linkedin.com/in/rishabhnmishra/"
+                            class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' FrontEnd Designer', 'Full Stack MERN Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
