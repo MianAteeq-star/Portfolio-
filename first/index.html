@@ -15,12 +15,10 @@
     }
 
     .progress-bar {
-        background: #ffbd39;
         -webkit-box-shadow: none;
         box-shadow: none;
         font-size: 12px;
         line-height: 1.2;
-        color: #d42222;
         font-weight: 600;
         position: relative;
         overflow: visible;
@@ -35,7 +33,7 @@
 
     .skill-mf .progress .progress-bar {
         height: .7rem;
-        background-color: #ffbd39;
+        background-color: #f3bb4c;
     }
 </style>
 
@@ -43,15 +41,15 @@
     <header>
         <nav class="flex flex-wrap  justify-evenly  items-center min-w-screen min-h-20 bg-[#023047] ">
             <div>
-                <h1 class="text-2xl text-white ">Muhammad Attique Portfolio</h1>
+                <h1 class="text-2xl text-white text-[#9c97f1] ">Muhammad Attique Portfolio</h1>
             </div>
             <div>
                 <ul class="flex gap-6 t  flex-wrap">
-                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Home</li></a>
-                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">About</li></a>
-                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Services </li></a>
-                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Projects </li></a>
-                    <li> <a href="/" class="hover:text-yellow-500 hover:underline ">Contact Me</li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline text-[#9c97f1]">Home</li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline text-[#9c97f1]">About</li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline text-[#9c97f1]">Services </li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline text-[#9c97f1]">Projects </li></a>
+                    <li> <a href="/" class="hover:text-yellow-500 hover:underline text-[#9c97f1]">Contact Me</li></a>
                 </ul>
             </div>
         </nav>
@@ -63,130 +61,213 @@
                 Hi, My name is <br> <span class="text-[#023e8a]">Muhammad Attique <br></span> and I am a passionate
                 <span id="element" class="text-[#023e8a]"></span>
             </div>
-            <div class=" min-h-52 w-96">
+            <div class=" min-h-52 max-w-96">
                 <img src="/assets/png.png" alt="">
             </div>
         </div>
 
         <hr class="w-4/5 m-auto mt-24 h-1 border-0 bg-[#9c97f1]">
-        <!-- <section>
-            <div>
-                <span class="text-white">What i have done so far</span>
-                <h1 class="text-white">Past Experience</h1>
 
-            </div>
-            <div class="skill-mf">
-                <p class="title-s">Skills</p>
-                <span class="text-white">SQL</span> <span class="pull-right text-white">95%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
-                        aria-valuemin="0" aria-valuemax="100"></div>
+
+        <section class="flex justify-around flex-wrap items-center">
+            <div class="flex justify-evenly flex-wrap mt-7 flex-col gap-y-7 ">
+
+                <div class="flex gap-6 justify-center items-center flex-wrap">
+                    <div class="mt-4">
+                        <img src="./assets/me.jpeg" class="rounded-full h-32 flex-wrap" alt="">
+                    </div>
+
+                    <!-- Details next to profile image -->
+
+                    <div class="">
+                        <p><span class="text-3xl text-[#023e8a]">Name: </span> <span class="text-2xl ">Muhammad
+                                Attique</span></p>
+                        <p><span class="text-3xl text-[#023e8a]">Job Role: </span> <span class="text-2xl ">MERN Stack
+                                Developer</span></p>
+                        <p><span class="text-3xl text-[#023e8a]">Experience: </span> <span class="text-2xl ">1 Years 3
+                                Months</span></p>
+                        <p><span class="text-3xl text-[#023e8a]">Address: </span> <span class="text-2xl ">Punjab,
+                                Pakistan</span></p>
+                    </div>
+                </div>
+                <div class="skill-mf ">
+                    <p class="text-3xl">Skills</p>
+                    <span>Html5</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span>CSS</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span>tailwindcss</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span>Javascript</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span>React.js</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
                 </div>
             </div>
 
 
-        </section> -->
+            <div class=" w-96 mt-20 ">
 
+                <h1 class="text-3xl text-[#023e8a]">About</h1>
 
-        <section class="flex flex-col " id="about-section">
-            <div class="flex justify-evenly">
-
-                <div class="about-img">
-                    <img src="./assets/boy 2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                </div>
-
-                <!-- Details next to profile image -->
-
-                <div class="about-info">
-                    <p><span class="title-s">Name: </span> <span>Rishabh Mishra</span></p>
-                    <p><span class="title-s">Job Role: </span> <span>Senior Data Analyst</span></p>
-                    <p><span class="title-s">Experience: </span> <span>5 Years 3 Months</span></p>
-                    <p><span class="title-s">Address: </span> <span>Bengaluru, India</span></p>
-                </div>
-            </div>
-
-
-<div class="flex justify-evenly">
-    
-    <div class="skill-mf w-1/2">
-                <p class="title-s">Skills</p>
-                <span>SQL</span> <span class="pull-right">95%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-
-                <span>PYTHON</span> <span class="pull-right">85%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-
-                <span>Data Visualization</span> <span class="pull-right">90%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-
-                <span>Statistical Analysis</span> <span class="pull-right">85%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-
-                <span>Machine Learning</span> <span class="pull-right">80%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-            </div>
-
-
-            
-            
-            <div class="w-1/2" >
-                <h1 class="text-3xl">About</h1>
-                <h2 class="mb-4">About Me</h2>
-
-                <p class="text-white">With over 5 years of comprehensive experience in the field of data
-                    science & analytics,
-                    accompanied by a bachelor's degree in engineering.
-                    Proficient in data analysis, statistical analysis, hypothesis testing, customer
+                <p class="text-xl">With over 1 years of comprehensive experience in the field of MERN Stack
+                    accompanied by a bachelor's degree in Computer Science.
+                    Proficient in MERN Stack, Web Development, customer
                     behaviour
-                    analysis, &amp; machine learning.
+                    Designing, &amp; FrontEnd Engineering.
                     Demonstrated success in leading impactful projects and providing effective mentorship.
                 </p>
                 <ul class="about-info mt-4 px-md-0 px-2">
-                    <li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
-                    <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital
-                            Marketing</span></li>
-                    <li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
-                    <li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
-                    <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp;
-                            Tableau</span></li>
-                    <li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA,
-                            Google
-                            Analytics &amp; SEO</span></li>
-                            <li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography,
-                                Teaching</span></li>
+                    <li class="text-2xl text-[#023e8a]"><span class="text-xl ">Profile:</span> <span>MERN Stack</span>
+                    </li>
+                    <li class="text-2xl text-[#023e8a]"><span class="text-xl ">Domain:</span> <span> Ecommerce, &amp;
+                        </span></li>
+                    <li class="text-2xl text-[#023e8a]"><span class="text-xl ">Education:</span> <span>Bachelor of
+                            Computer Science</span></li>
+                    <li class="text-2xl text[#023e8a]"><span class="text-xl ">Language:</span> <span>English,
+                            URDU</span></li>
+
+                    <li class="text-2xl text-[#023e8a]"><span class="text-xl ">Other Skills:</span> <span>HTML5 , CSS,
+                            Tailwindcss, Git, Javascript,
+                            React.js, React Native, Node.js, Express, MongoDb</span></li>
+                    <li class="text-2xl text-[#023e8a]"><span class="text-xl ">Interest:</span> <span>Traveling, Travel
+                            Photography,
+                            Cricket, Gardening</span></li>
 
                 </ul>
 
-            </div>
-        </div>
 
-            <div class="counter-wrap ftco-animate d-flex mt-md-3">
-                <div class="text">
-                    <p class="mb-4">
-                        <span class="number" data-number="30">0</span> <span>+</span>
-                        <span>&nbsp; Projects completed</span>
-                    </p>
-                    <p><a href="https://www.linkedin.com/in/rishabhnmishra/"
-                            class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-                </div>
+
+
+
+
+
             </div>
+
+
+
+
+
 
         </section>
+        <p class="text-center mt-7"><a href="https://www.linkedin.com/in/mian-ateeq-star-a6a0202b0/"
+                class="bg-yellow-400 rounded-xl p-4 text-[#023e8a]">LinkedIn</a></p>
+
+
+
+
+
+        <section class="mt-16 flex justify-around flex-wrap">
+            <div class="">
+                <span class=" ml-11 text-[#9c97f1]">What i have done so far</span>
+                <h1 class=" ml-11 text-3xl text-[#023e8a]">Past Experience</h1>
+                <hr class="w-4/5 m-auto h-1  mt-7 ">
+
+                <div  class="h-96 w-1 bg-white mx-11 my-7 flex flex-wrap flex-col justify-evenly">
+
+                   
+                        <div class="vertical-line w-20 h-1  my-100% mx-0 bg-white   ">
+                            <h1 class="text-lg text-[#9c97f1]  relative  left-20 ">
+                                HTML
+                            </h1>
+    
+    
+                        </div>
+                        <div class="vertical-line w-20 h-1  my-100% mx-0 bg-white   ">
+                            <h1 class="text-lg text-[#9c97f1]  relative  left-20 ">
+                                CSS
+                            </h1>
+    
+    
+                        </div>
+                        <div class="vertical-line w-20 h-1  my-100% mx-0 bg-white   ">
+                            <h1 class="text-lg text-[#9c97f1]  relative  left-20 ">
+                                Javascript
+                            </h1>
+                            <!-- <div class="desc relative text-xs left-20">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores harum impedit?
+                            </div> -->
+    
+    
+                        </div>
+                        <div class="vertical-line w-20 h-1  my-100% mx-0 bg-white   ">
+                            <h1 class="text-lg text-[#9c97f1]  relative  left-20 ">
+                                React.js
+                            </h1>
+    
+    
+                        </div>
+                </div>
+                 
+
+
+
+            </div>
+
+            <div class="education w-96  ">
+                <h1 class="text-3xl text-[#9c97f1]">
+                    Education
+                </h1>
+                <hr class="mt-11 w-4/5 m-auto">
+
+                <div class="max-w-sm w-full lg:max-w-full lg:flex mt-7">
+                    <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/assets/me.jpeg'); background-size: cover; background-repeat: no-repeat;" title="Muhammad Attique">
+                    </div>
+                    <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                      <div class="mb-8">
+                        <p class="text-sm text-gray-600 flex items-center">
+                          <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                          </svg>
+                         Muhammad Attique
+                        </p>
+                        <div class="text-gray-900  text-xl mb-2">2021-2025
+                            Bachelor of Computer Science
+                           Government Graduate College Samanabad Faisalabad
+                           </div>
+                      </div>
+                      <div class="flex items-center">
+                        <img class="w-10 h-10 rounded-full mr-4" src="/assets/me.jpeg" alt="Avatar of Jonathan Reinink">
+                        <div class="text-sm">
+                          <p class="text-gray-900 leading-none">Muhammad Attique</p>
+                          <p class="text-gray-600">28 April 2005</p>
+                        </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
